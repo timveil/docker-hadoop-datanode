@@ -11,6 +11,7 @@ VOLUME /hadoop/dfs/data
 ADD run.sh /run.sh
 RUN chmod a+x /run.sh
 
+# datanode ui
 EXPOSE 50075
 
 CMD ["/run.sh"]
