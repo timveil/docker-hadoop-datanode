@@ -6,10 +6,10 @@ if [ ! -d $datadir ]; then
   exit 2
 fi
 
-# why is this needed
+# todo: why is this needed
 ulimit -c unlimited
 
 $HADOOP_PREFIX/bin/hdfs --config $HADOOP_CONF_DIR datanode
 
-# why is this needed
+# todo: why is this needed
 cat /hs_err*
