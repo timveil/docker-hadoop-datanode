@@ -6,10 +6,4 @@ if [ ! -d $datadir ]; then
   exit 2
 fi
 
-# todo: why is this needed
-# ulimit -c unlimited
-
 $HADOOP_HOME/bin/hdfs --config $HADOOP_CONF_DIR datanode
-
-# todo: why is this needed
-# cat /hs_err*
