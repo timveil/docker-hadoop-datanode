@@ -7,9 +7,9 @@ if [ ! -d $datadir ]; then
 fi
 
 # todo: why is this needed
-ulimit -c unlimited
+# ulimit -c unlimited
 
 $HADOOP_HOME/bin/hdfs --config $HADOOP_CONF_DIR datanode
 
 # todo: why is this needed
-cat /hs_err*
+# cat /hs_err*
