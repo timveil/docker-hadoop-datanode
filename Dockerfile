@@ -8,6 +8,6 @@ ADD run.sh /run.sh
 RUN chmod a+x /run.sh
 
 # datanode ui
-EXPOSE 50075
+EXPOSE 9864
 
 CMD ["/run.sh"]
